@@ -1,5 +1,5 @@
 import pandas as pd
-from prepare_data import encode_objects_fit, prepare_to_train, prepare_to_predict, decode_objects
+from ..Model_BSHP.prepare_data import encode_objects_fit, prepare_to_train, prepare_to_predict, decode_objects
 from connector import Connector
 from model import RFModel
 
