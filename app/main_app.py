@@ -1,8 +1,8 @@
 import fastapi
 import uvicorn
-from Model_BSHP.data_types import DataRow
-from Model_BSHP.connector import Connector
-from Model_BSHP.processor import Processor
+from data_types import DataRow
+from connector import Connector
+from processor import Processor
 import pandas as pd
 
 
