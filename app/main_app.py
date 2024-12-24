@@ -38,4 +38,4 @@ def get_model_info(base_name: str) -> str:
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8070, log_level="info")
+    uvicorn.run(app, host="185.246.89.81", port=22, log_level="info")
